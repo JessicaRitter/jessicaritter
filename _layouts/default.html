@@ -6,22 +6,27 @@
   <link rel="stylesheet" type="text/css" href="/css/main.css">
 </header>
 <body>
-    <nav class="navbar navbar-default navbar-static-top">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/cv">CV</a></li>
-        <li><a href="blog">Blog</a></li>
-      </ul>
+    <nav class="navbar navbar-default navbar-static-top" role="banner">
+      <div class="container">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/cv">CV</a></li>
+            <li><a href="blog">Blog</a></li>
+          </ul>
+      </div>
     </nav>
+    <div class="navbar-spacer"></div>
       <div class="container">
        {{ content }}
       </div>
       <footer class="footer navbar-fixed-bottom">
-        <ul>
-          <li><a href="mailto:jessicalynn.w.ritter@gmail.com">email</a></li>
-          <li><a href="https://github.com/jessicaritter">github</a></li>
-        </ul>
+        <div class="container">
+          <ul>
+            <li><a href="mailto:jessicalynn.w.ritter@gmail.com">email</a></li>
+            <li><a href="https://github.com/jessicaritter">github</a></li>
+          </ul>
+        </div>
       </footer>
   </body>
 </html>
