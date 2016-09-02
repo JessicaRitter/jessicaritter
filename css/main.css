@@ -53,6 +53,10 @@ p {
     height:426px;
 }
 
+#bio-content img{
+    height:328px;
+}
+
 #footer-container {
     height:20px;
     width: 100%;
