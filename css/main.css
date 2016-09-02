@@ -5,7 +5,7 @@ body {
 }
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 5px;
     list-style: none;
     font-weight: normal;
     line-height: 28px;
@@ -18,8 +18,10 @@ nav ul li {
 
 .navbar{
     width: 100%;
+}
 
-
+#navbar-container {
+    padding-right: 30px;
 }
 
 navbar-spacer {
@@ -56,12 +58,14 @@ p {
 
 #bio-content img {
     height:300px;
+    border-radius: 50%;
 
 }
 
 #footer-container {
     height:20px;
     width: 100%;
+    padding-top: 20px;
 }
 
 footer {
