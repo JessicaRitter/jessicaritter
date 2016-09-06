@@ -55,7 +55,7 @@ p {
 #bio-content {
     width: 100%;
     height:426px;
-    background-image: url(../assets/pictures/tokyo.jpg) no-repeat;
+    background-image: url(assets/pictures/tokyo.jpg) no-repeat center center;
 }
 
 #footer {
@@ -73,10 +73,19 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    align-content: left;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+ul {
+    align-content: left;
+}
+
+ul li {
+    align-content: left;
 }
 
 footer ul{
