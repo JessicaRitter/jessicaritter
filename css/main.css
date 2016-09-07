@@ -1,5 +1,5 @@
 html { 
-  background: url(https://jessicaritter.github.io/_assets/pictures/tokyo.jpg) no-repeat center center fixed; 
+  background: url('../_assets/pictures/tokyo.jpg') no-repeat center center fixed; 
   background-size: cover;
 }
 
