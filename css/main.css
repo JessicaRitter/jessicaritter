@@ -36,6 +36,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.btn {
+    margin-top:10px;
+}
+
 h1 {
     font-size: 3em;
     font-family: 'Raleway', sans-serif;
@@ -57,7 +62,7 @@ p {
 }
 
 #footer {
-    height:60px;
+    height:80px;
     width: 100%;
     padding-top: 20px;
 }
