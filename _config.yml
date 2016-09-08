@@ -1,6 +1,5 @@
 name: Jessica Ritter
 markdown: kramdown
 url: "https://jessicaritter.github.io"
-baseurl: /jessicaritter
 
 permalink: /blog/:year/:month/:day/:title
