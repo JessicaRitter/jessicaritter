@@ -7,7 +7,7 @@ body {
 }
 
 #main-content {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #bio-content {
@@ -56,19 +56,24 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family: 'Raleway', sans-serif;
-    color: #6b6b6b;
+    color: #ff2c55;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    color:#6b6b6b;
+    color:#fcd0a1;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #c41e3d;
 }
 
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #999;
+    color: #7c7c7c;
 }
 
 #footer {
@@ -78,7 +83,7 @@ p {
 }
 
 footer {
-    background-color: #333333;
+    background-color: #2f2f2f;
     font-size: .8em;
 }
 
@@ -99,7 +104,7 @@ ul {
 
 ul li {
     align-content: left;
-    color: #6b6b6b;
+    color: #7c7c7c;
 }
 
 #projects h1{
@@ -111,7 +116,7 @@ footer ul{
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    color:#fff;
+    color:#fcd0a1;
 }
 
 footer ul li{
