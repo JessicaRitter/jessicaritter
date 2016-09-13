@@ -56,7 +56,12 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family: 'Raleway', sans-serif;
-    color:#999;
+    color: #6b6b6b;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color:#6b6b6b;
 }
 
 p {
@@ -89,10 +94,12 @@ ul.posts li {
 
 ul {
     align-content: left;
+    color: #6b6b6b;
 }
 
 ul li {
     align-content: left;
+    color: #6b6b6b;
 }
 
 #projects h1{
