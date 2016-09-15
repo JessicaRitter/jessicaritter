@@ -2,12 +2,8 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-    background: url(https://s3-us-west-1.amazonaws.com/jessicaritter/assets/IMG_1113.JPG) no-repeat center center fixed; 
+    background-color: #fcf7ff;
   background-size: cover;
-}
-
-#main-content {
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #bio-content {
@@ -30,6 +26,8 @@ nav ul li {
 
 .navbar{
     width: 100%;
+    background-color: #fffaff;
+    color:#22181c;
 }
 
 #navbar-container {
@@ -41,11 +39,17 @@ navbar-spacer {
     min-height:60px;
 }
 
-a {
+.navbar a {
     text-decoration: none;
-    color: #999;
+    color: #f13030;
 }
+
+.footer a {
+    color: #fcf7ff;
+}
+
 a:hover {
+    color:#f45b69;
     text-decoration: underline;
 }
 
@@ -56,34 +60,34 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family: 'Raleway', sans-serif;
-    color: #ff2c55;
+    color: #22181c;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    color:#fcd0a1;
+    color:#f13030;
 }
 
 h3 {
     font-family: 'Raleway', sans-serif;
-    color: #c41e3d;
+    color: #5a0001;
 }
 
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #7c7c7c;
+    color: #22181c;
 }
 
 #footer {
-    height:80px;
+    height:200px;
     width: 100%;
     padding-top: 20px;
 }
 
 footer {
-    background-color: #2f2f2f;
+    background-color: #22181c;
     font-size: .8em;
 }
 
@@ -104,7 +108,7 @@ ul {
 
 ul li {
     align-content: left;
-    color: #7c7c7c;
+    color: #22181c;
 }
 
 #projects h1{
@@ -116,7 +120,7 @@ footer ul{
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    color:#fcd0a1;
+    color:#fcf7ff;
 }
 
 footer ul li{
