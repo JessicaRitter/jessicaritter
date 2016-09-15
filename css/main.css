@@ -9,6 +9,7 @@ body {
 #bio-content {
     width:100%;
     height: 100%;
+    padding-top: 40px;
 }
 
 nav ul {
@@ -54,7 +55,7 @@ a:hover {
 }
 
 #img-circle {
-    border-radius: 50%;
+    height:150px;
 }
 
 h1 {
@@ -109,6 +110,15 @@ ul {
 ul li {
     align-content: left;
     color: #22181c;
+}
+
+#btn-outline-primary {
+    border: 1px solid #f13030;
+    background: transparent;
+}
+
+#btn a {
+    color: #f13030;
 }
 
 #projects h1{
